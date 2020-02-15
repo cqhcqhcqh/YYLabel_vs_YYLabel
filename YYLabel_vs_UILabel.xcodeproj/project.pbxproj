@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF161A1B23F7B79A0006C517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF161A1A23F7B79A0006C517 /* AppDelegate.swift */; };
+		AF161A1D23F7B79A0006C517 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF161A1C23F7B79A0006C517 /* SceneDelegate.swift */; };
+		AF161A1F23F7B79A0006C517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF161A1E23F7B79A0006C517 /* ViewController.swift */; };
+		AF161A2223F7B79A0006C517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF161A2023F7B79A0006C517 /* Main.storyboard */; };
+		AF161A2423F7B79A0006C517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF161A2323F7B79A0006C517 /* Assets.xcassets */; };
+		AF161A2723F7B79A0006C517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF161A2523F7B79A0006C517 /* LaunchScreen.storyboard */; };
+		AF161A3223F7B79B0006C517 /* YYLabel_vs_UILabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF161A3123F7B79B0006C517 /* YYLabel_vs_UILabelTests.swift */; };
+		AF161A3D23F7B79B0006C517 /* YYLabel_vs_UILabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF161A3C23F7B79B0006C517 /* YYLabel_vs_UILabelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF161A2E23F7B79B0006C517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF161A0F23F7B7990006C517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF161A1623F7B7990006C517;
+			remoteInfo = YYLabel_vs_UILabel;
+		};
+		AF161A3923F7B79B0006C517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF161A0F23F7B7990006C517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF161A1623F7B7990006C517;
+			remoteInfo = YYLabel_vs_UILabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF161A1723F7B7990006C517 /* YYLabel_vs_UILabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYLabel_vs_UILabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF161A1A23F7B79A0006C517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF161A1C23F7B79A0006C517 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF161A1E23F7B79A0006C517 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF161A2123F7B79A0006C517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF161A2323F7B79A0006C517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF161A2623F7B79A0006C517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF161A2823F7B79A0006C517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF161A2D23F7B79B0006C517 /* YYLabel_vs_UILabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYLabel_vs_UILabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF161A3123F7B79B0006C517 /* YYLabel_vs_UILabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYLabel_vs_UILabelTests.swift; sourceTree = "<group>"; };
+		AF161A3323F7B79B0006C517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF161A3823F7B79B0006C517 /* YYLabel_vs_UILabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYLabel_vs_UILabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF161A3C23F7B79B0006C517 /* YYLabel_vs_UILabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYLabel_vs_UILabelUITests.swift; sourceTree = "<group>"; };
+		AF161A3E23F7B79B0006C517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF161A1423F7B7990006C517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF161A2A23F7B79B0006C517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF161A3523F7B79B0006C517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF161A0E23F7B7990006C517 = {
+			isa = PBXGroup;
+			children = (
+				AF161A1923F7B79A0006C517 /* YYLabel_vs_UILabel */,
+				AF161A3023F7B79B0006C517 /* YYLabel_vs_UILabelTests */,
+				AF161A3B23F7B79B0006C517 /* YYLabel_vs_UILabelUITests */,
+				AF161A1823F7B7990006C517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF161A1823F7B7990006C517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF161A1723F7B7990006C517 /* YYLabel_vs_UILabel.app */,
+				AF161A2D23F7B79B0006C517 /* YYLabel_vs_UILabelTests.xctest */,
+				AF161A3823F7B79B0006C517 /* YYLabel_vs_UILabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF161A1923F7B79A0006C517 /* YYLabel_vs_UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				AF161A1A23F7B79A0006C517 /* AppDelegate.swift */,
+				AF161A1C23F7B79A0006C517 /* SceneDelegate.swift */,
+				AF161A1E23F7B79A0006C517 /* ViewController.swift */,
+				AF161A2023F7B79A0006C517 /* Main.storyboard */,
+				AF161A2323F7B79A0006C517 /* Assets.xcassets */,
+				AF161A2523F7B79A0006C517 /* LaunchScreen.storyboard */,
+				AF161A2823F7B79A0006C517 /* Info.plist */,
+			);
+			path = YYLabel_vs_UILabel;
+			sourceTree = "<group>";
+		};
+		AF161A3023F7B79B0006C517 /* YYLabel_vs_UILabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF161A3123F7B79B0006C517 /* YYLabel_vs_UILabelTests.swift */,
+				AF161A3323F7B79B0006C517 /* Info.plist */,
+			);
+			path = YYLabel_vs_UILabelTests;
+			sourceTree = "<group>";
+		};
+		AF161A3B23F7B79B0006C517 /* YYLabel_vs_UILabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF161A3C23F7B79B0006C517 /* YYLabel_vs_UILabelUITests.swift */,
+				AF161A3E23F7B79B0006C517 /* Info.plist */,
+			);
+			path = YYLabel_vs_UILabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF161A1623F7B7990006C517 /* YYLabel_vs_UILabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF161A4123F7B79B0006C517 /* Build configuration list for PBXNativeTarget "YYLabel_vs_UILabel" */;
+			buildPhases = (
+				AF161A1323F7B7990006C517 /* Sources */,
+				AF161A1423F7B7990006C517 /* Frameworks */,
+				AF161A1523F7B7990006C517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYLabel_vs_UILabel;
+			productName = YYLabel_vs_UILabel;
+			productReference = AF161A1723F7B7990006C517 /* YYLabel_vs_UILabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF161A2C23F7B79B0006C517 /* YYLabel_vs_UILabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF161A4423F7B79B0006C517 /* Build configuration list for PBXNativeTarget "YYLabel_vs_UILabelTests" */;
+			buildPhases = (
+				AF161A2923F7B79B0006C517 /* Sources */,
+				AF161A2A23F7B79B0006C517 /* Frameworks */,
+				AF161A2B23F7B79B0006C517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF161A2F23F7B79B0006C517 /* PBXTargetDependency */,
+			);
+			name = YYLabel_vs_UILabelTests;
+			productName = YYLabel_vs_UILabelTests;
+			productReference = AF161A2D23F7B79B0006C517 /* YYLabel_vs_UILabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF161A3723F7B79B0006C517 /* YYLabel_vs_UILabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF161A4723F7B79B0006C517 /* Build configuration list for PBXNativeTarget "YYLabel_vs_UILabelUITests" */;
+			buildPhases = (
+				AF161A3423F7B79B0006C517 /* Sources */,
+				AF161A3523F7B79B0006C517 /* Frameworks */,
+				AF161A3623F7B79B0006C517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF161A3A23F7B79B0006C517 /* PBXTargetDependency */,
+			);
+			name = YYLabel_vs_UILabelUITests;
+			productName = YYLabel_vs_UILabelUITests;
+			productReference = AF161A3823F7B79B0006C517 /* YYLabel_vs_UILabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF161A0F23F7B7990006C517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = chengqihan;
+				TargetAttributes = {
+					AF161A1623F7B7990006C517 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					AF161A2C23F7B79B0006C517 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AF161A1623F7B7990006C517;
+					};
+					AF161A3723F7B79B0006C517 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AF161A1623F7B7990006C517;
+					};
+				};
+			};
+			buildConfigurationList = AF161A1223F7B7990006C517 /* Build configuration list for PBXProject "YYLabel_vs_UILabel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF161A0E23F7B7990006C517;
+			productRefGroup = AF161A1823F7B7990006C517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF161A1623F7B7990006C517 /* YYLabel_vs_UILabel */,
+				AF161A2C23F7B79B0006C517 /* YYLabel_vs_UILabelTests */,
+				AF161A3723F7B79B0006C517 /* YYLabel_vs_UILabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF161A1523F7B7990006C517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF161A2723F7B79A0006C517 /* LaunchScreen.storyboard in Resources */,
+				AF161A2423F7B79A0006C517 /* Assets.xcassets in Resources */,
+				AF161A2223F7B79A0006C517 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF161A2B23F7B79B0006C517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF161A3623F7B79B0006C517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF161A1323F7B7990006C517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF161A1F23F7B79A0006C517 /* ViewController.swift in Sources */,
+				AF161A1B23F7B79A0006C517 /* AppDelegate.swift in Sources */,
+				AF161A1D23F7B79A0006C517 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF161A2923F7B79B0006C517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF161A3223F7B79B0006C517 /* YYLabel_vs_UILabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF161A3423F7B79B0006C517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF161A3D23F7B79B0006C517 /* YYLabel_vs_UILabelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF161A2F23F7B79B0006C517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF161A1623F7B7990006C517 /* YYLabel_vs_UILabel */;
+			targetProxy = AF161A2E23F7B79B0006C517 /* PBXContainerItemProxy */;
+		};
+		AF161A3A23F7B79B0006C517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF161A1623F7B7990006C517 /* YYLabel_vs_UILabel */;
+			targetProxy = AF161A3923F7B79B0006C517 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF161A2023F7B79A0006C517 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF161A2123F7B79A0006C517 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF161A2523F7B79A0006C517 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF161A2623F7B79A0006C517 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF161A3F23F7B79B0006C517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF161A4023F7B79B0006C517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF161A4223F7B79B0006C517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6YTL27QWA;
+				INFOPLIST_FILE = YYLabel_vs_UILabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caitoy.YYLabel-vs-UILabel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF161A4323F7B79B0006C517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6YTL27QWA;
+				INFOPLIST_FILE = YYLabel_vs_UILabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caitoy.YYLabel-vs-UILabel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF161A4523F7B79B0006C517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6YTL27QWA;
+				INFOPLIST_FILE = YYLabel_vs_UILabelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caitoy.YYLabel-vs-UILabelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYLabel_vs_UILabel.app/YYLabel_vs_UILabel";
+			};
+			name = Debug;
+		};
+		AF161A4623F7B79B0006C517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6YTL27QWA;
+				INFOPLIST_FILE = YYLabel_vs_UILabelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caitoy.YYLabel-vs-UILabelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYLabel_vs_UILabel.app/YYLabel_vs_UILabel";
+			};
+			name = Release;
+		};
+		AF161A4823F7B79B0006C517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6YTL27QWA;
+				INFOPLIST_FILE = YYLabel_vs_UILabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caitoy.YYLabel-vs-UILabelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYLabel_vs_UILabel;
+			};
+			name = Debug;
+		};
+		AF161A4923F7B79B0006C517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6YTL27QWA;
+				INFOPLIST_FILE = YYLabel_vs_UILabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caitoy.YYLabel-vs-UILabelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYLabel_vs_UILabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF161A1223F7B7990006C517 /* Build configuration list for PBXProject "YYLabel_vs_UILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF161A3F23F7B79B0006C517 /* Debug */,
+				AF161A4023F7B79B0006C517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF161A4123F7B79B0006C517 /* Build configuration list for PBXNativeTarget "YYLabel_vs_UILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF161A4223F7B79B0006C517 /* Debug */,
+				AF161A4323F7B79B0006C517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF161A4423F7B79B0006C517 /* Build configuration list for PBXNativeTarget "YYLabel_vs_UILabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF161A4523F7B79B0006C517 /* Debug */,
+				AF161A4623F7B79B0006C517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF161A4723F7B79B0006C517 /* Build configuration list for PBXNativeTarget "YYLabel_vs_UILabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF161A4823F7B79B0006C517 /* Debug */,
+				AF161A4923F7B79B0006C517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF161A0F23F7B7990006C517 /* Project object */;
+}
