@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         return modify
     }()
     
-    let size = CGSize(width: CGFloat.greatestFiniteMagnitude, height: CGFloat.greatestFiniteMagnitude)
+    let size = CGSize(width: CGFloat.greatestFiniteMagnitude, height: 200)
     let yylabel = YYLabel()
     let uilabel = UILabel()
     lazy var textShadow: NSShadow = {
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         yylabel.frame.origin = CGPoint(x: 50, y: 100)
         yylabel.layer.borderColor = UIColor.green.cgColor
         yylabel.layer.borderWidth = 1.0
-//        DebugOption.setDebug(true)
+        DebugOption.setDebug(true)
         view.addSubview(yylabel)
         
         uilabel.numberOfLines = 0
@@ -54,7 +54,7 @@ class ViewController: UIViewController {
 
     var attributedString: NSAttributedString {
         let string = NSMutableAttributedString(
-            string: input.text ?? "", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 40.0)])
+            string: input.text ?? "", attributes: [NSAttributedString.Key.font : UIFont.customFont(withName: "91ea0c0f-45e7-461f-8861-d0971428d446.ttf", size: 40.0) as Any])
 //        let index = arc4random_uniform(3)
 //        let alignment = NSTextAlignment(rawValue: Int(index))
 //        switch alignment {
@@ -65,8 +65,8 @@ class ViewController: UIViewController {
 //        default:
 //            yylabel.textVerticalAlignment = .center
 //        }
-        string.yy_strokeColor = .brown
-        string.yy_strokeWidth = 5
+//        string.yy_strokeColor = .brown
+//        string.yy_strokeWidth = 5
         string.yy_alignment = .left
         string.yy_color = .green
         return string
@@ -75,8 +75,10 @@ class ViewController: UIViewController {
     @objc func editingDidEnd() {
 //        uilabel.attributedText = attributedString
         let layout = yylabelTextLayout
-        yylabel.frame.size = layout.textBoundingSize
-        yylabel.textLayout = layout
+        let verticalLayout = YYTextLayout(container: layout.container, text: layout.verticalFormTextAddTextRunDelegateIfNeeded())
+        verticalLayout?.modifyRunGlyphRangeIfNeeded()
+        yylabel.frame.size = verticalLayout!.textBoundingSize
+        yylabel.textLayout = verticalLayout
 //        yylabel.textColor = .black
 //        uilabel.frame.size = uilabelSize
         print("yylabelSize: \(yylabel.frame.size) \n uilabelSize:\(uilabel.frame.size)")
@@ -92,7 +94,7 @@ class ViewController: UIViewController {
     
     var yylabelTextLayout: YYTextLayout {
         let container = YYTextContainer(size: size, insets: .zero)
-//        container.isVerticalForm = true
+        container.isVerticalForm = true
         return YYTextLayout(container: container, text: attributedString)!
     }
 }

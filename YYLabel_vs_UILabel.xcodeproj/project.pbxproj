@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		5FD47D9CB49FB9657CB69784 /* Pods_YYLabel_vs_UILabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E65BC8118B5B1D6024D898 /* Pods_YYLabel_vs_UILabel.framework */; };
 		62D299DE53E6DE18981ED266 /* Pods_YYLabel_vs_UILabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4441CDB0A5CE78CDD8A0F4 /* Pods_YYLabel_vs_UILabelTests.framework */; };
+		6385905F2406304000A3B5AA /* 91ea0c0f-45e7-461f-8861-d0971428d446.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6385905E2406304000A3B5AA /* 91ea0c0f-45e7-461f-8861-d0971428d446.ttf */; };
+		638590622406304B00A3B5AA /* UIFont+Versa.m in Sources */ = {isa = PBXBuildFile; fileRef = 638590612406304B00A3B5AA /* UIFont+Versa.m */; };
+		638590652406344800A3B5AA /* YYTextLayout+VerticalForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 638590642406344800A3B5AA /* YYTextLayout+VerticalForm.m */; };
 		AF161A1B23F7B79A0006C517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF161A1A23F7B79A0006C517 /* AppDelegate.swift */; };
 		AF161A1D23F7B79A0006C517 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF161A1C23F7B79A0006C517 /* SceneDelegate.swift */; };
 		AF161A1F23F7B79A0006C517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF161A1E23F7B79A0006C517 /* ViewController.swift */; };
@@ -40,6 +43,11 @@
 
 /* Begin PBXFileReference section */
 		4A4441CDB0A5CE78CDD8A0F4 /* Pods_YYLabel_vs_UILabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYLabel_vs_UILabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6385905E2406304000A3B5AA /* 91ea0c0f-45e7-461f-8861-d0971428d446.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "91ea0c0f-45e7-461f-8861-d0971428d446.ttf"; sourceTree = "<group>"; };
+		638590602406304B00A3B5AA /* UIFont+Versa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Versa.h"; sourceTree = "<group>"; };
+		638590612406304B00A3B5AA /* UIFont+Versa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Versa.m"; sourceTree = "<group>"; };
+		638590632406344800A3B5AA /* YYTextLayout+VerticalForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYTextLayout+VerticalForm.h"; sourceTree = "<group>"; };
+		638590642406344800A3B5AA /* YYTextLayout+VerticalForm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YYTextLayout+VerticalForm.m"; sourceTree = "<group>"; };
 		81A932B301DDD27943E2BC78 /* Pods-YYLabel_vs_UILabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLabel_vs_UILabel.debug.xcconfig"; path = "Target Support Files/Pods-YYLabel_vs_UILabel/Pods-YYLabel_vs_UILabel.debug.xcconfig"; sourceTree = "<group>"; };
 		84F34CA998754A8308456619 /* Pods-YYLabel_vs_UILabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLabel_vs_UILabel.release.xcconfig"; path = "Target Support Files/Pods-YYLabel_vs_UILabel/Pods-YYLabel_vs_UILabel.release.xcconfig"; sourceTree = "<group>"; };
 		9404B89A9815D5308905CF11 /* Pods_YYLabel_vs_UILabel_YYLabel_vs_UILabelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYLabel_vs_UILabel_YYLabel_vs_UILabelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +143,11 @@
 				AF161A1E23F7B79A0006C517 /* ViewController.swift */,
 				AFC9316323FCF9DD00B84B08 /* DebugOption.h */,
 				AFC9316423FCF9DD00B84B08 /* DebugOption.m */,
+				638590602406304B00A3B5AA /* UIFont+Versa.h */,
+				638590612406304B00A3B5AA /* UIFont+Versa.m */,
+				638590632406344800A3B5AA /* YYTextLayout+VerticalForm.h */,
+				638590642406344800A3B5AA /* YYTextLayout+VerticalForm.m */,
+				6385905E2406304000A3B5AA /* 91ea0c0f-45e7-461f-8861-d0971428d446.ttf */,
 				AF161A2023F7B79A0006C517 /* Main.storyboard */,
 				AF161A2323F7B79A0006C517 /* Assets.xcassets */,
 				AF161A2523F7B79A0006C517 /* LaunchScreen.storyboard */,
@@ -288,6 +301,7 @@
 				AF161A2723F7B79A0006C517 /* LaunchScreen.storyboard in Resources */,
 				AF161A2423F7B79A0006C517 /* Assets.xcassets in Resources */,
 				AF161A2223F7B79A0006C517 /* Main.storyboard in Resources */,
+				6385905F2406304000A3B5AA /* 91ea0c0f-45e7-461f-8861-d0971428d446.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +431,9 @@
 			files = (
 				AFC9316523FCF9DD00B84B08 /* DebugOption.m in Sources */,
 				AF161A1F23F7B79A0006C517 /* ViewController.swift in Sources */,
+				638590652406344800A3B5AA /* YYTextLayout+VerticalForm.m in Sources */,
 				AF161A1B23F7B79A0006C517 /* AppDelegate.swift in Sources */,
+				638590622406304B00A3B5AA /* UIFont+Versa.m in Sources */,
 				AF161A1D23F7B79A0006C517 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

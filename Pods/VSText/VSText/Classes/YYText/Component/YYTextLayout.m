@@ -2292,7 +2292,7 @@ static void YYTextDrawRun(YYTextLine *line, CTRunRef run, CGContextRef context, 
                             if (mode) { // CJK glyph, need rotated
                                 CGFloat ofs = (ascent - descent) * 0.5;
                                 CGFloat w = glyphAdvances[g].width * 0.5;
-                                CGFloat x = x = line.position.x + verticalOffset + glyphPositions[g].y + (ofs - w);
+                                CGFloat x = x = line.position.x + verticalOffset + glyphPositions[g].y + (ofs - (oneRange.glyphAdvanceChanged ? oneRange.actualAdvanceWidth : glyphAdvances[g].width) * 0.5);
                                 CGFloat y = -line.position.y + size.height - glyphPositions[g].x - (ofs + w);
                                 if (mode == YYTextRunGlyphDrawModeVerticalRotateMove) {
                                     x += w;

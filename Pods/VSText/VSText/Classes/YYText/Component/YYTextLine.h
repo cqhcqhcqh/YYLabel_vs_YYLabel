@@ -77,6 +77,8 @@ typedef NS_ENUM(NSUInteger, YYTextRunGlyphDrawMode) {
  */
 @interface YYTextRunGlyphRange : NSObject
 @property (nonatomic) NSRange glyphRangeInRun;
+@property (nonatomic, assign) BOOL glyphAdvanceChanged;
+@property (nonatomic, assign) CGFloat actualAdvanceWidth;
 @property (nonatomic) YYTextRunGlyphDrawMode drawMode;
 + (instancetype)rangeWithRange:(NSRange)range drawMode:(YYTextRunGlyphDrawMode)mode;
 @end
