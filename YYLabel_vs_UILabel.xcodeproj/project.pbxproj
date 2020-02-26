@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FD47D9CB49FB9657CB69784 /* Pods_YYLabel_vs_UILabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E65BC8118B5B1D6024D898 /* Pods_YYLabel_vs_UILabel.framework */; };
+		62D299DE53E6DE18981ED266 /* Pods_YYLabel_vs_UILabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4441CDB0A5CE78CDD8A0F4 /* Pods_YYLabel_vs_UILabelTests.framework */; };
 		AF161A1B23F7B79A0006C517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF161A1A23F7B79A0006C517 /* AppDelegate.swift */; };
 		AF161A1D23F7B79A0006C517 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF161A1C23F7B79A0006C517 /* SceneDelegate.swift */; };
 		AF161A1F23F7B79A0006C517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF161A1E23F7B79A0006C517 /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		AF161A2723F7B79A0006C517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF161A2523F7B79A0006C517 /* LaunchScreen.storyboard */; };
 		AF161A3223F7B79B0006C517 /* YYLabel_vs_UILabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF161A3123F7B79B0006C517 /* YYLabel_vs_UILabelTests.swift */; };
 		AF161A3D23F7B79B0006C517 /* YYLabel_vs_UILabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF161A3C23F7B79B0006C517 /* YYLabel_vs_UILabelUITests.swift */; };
+		AFC9316523FCF9DD00B84B08 /* DebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC9316423FCF9DD00B84B08 /* DebugOption.m */; };
+		C1077B05A653724D366DDF9A /* Pods_YYLabel_vs_UILabel_YYLabel_vs_UILabelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9404B89A9815D5308905CF11 /* Pods_YYLabel_vs_UILabel_YYLabel_vs_UILabelUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A4441CDB0A5CE78CDD8A0F4 /* Pods_YYLabel_vs_UILabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYLabel_vs_UILabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A932B301DDD27943E2BC78 /* Pods-YYLabel_vs_UILabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLabel_vs_UILabel.debug.xcconfig"; path = "Target Support Files/Pods-YYLabel_vs_UILabel/Pods-YYLabel_vs_UILabel.debug.xcconfig"; sourceTree = "<group>"; };
+		84F34CA998754A8308456619 /* Pods-YYLabel_vs_UILabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLabel_vs_UILabel.release.xcconfig"; path = "Target Support Files/Pods-YYLabel_vs_UILabel/Pods-YYLabel_vs_UILabel.release.xcconfig"; sourceTree = "<group>"; };
+		9404B89A9815D5308905CF11 /* Pods_YYLabel_vs_UILabel_YYLabel_vs_UILabelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYLabel_vs_UILabel_YYLabel_vs_UILabelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF161A1723F7B7990006C517 /* YYLabel_vs_UILabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYLabel_vs_UILabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF161A1A23F7B79A0006C517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF161A1C23F7B79A0006C517 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 		AF161A3823F7B79B0006C517 /* YYLabel_vs_UILabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYLabel_vs_UILabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF161A3C23F7B79B0006C517 /* YYLabel_vs_UILabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYLabel_vs_UILabelUITests.swift; sourceTree = "<group>"; };
 		AF161A3E23F7B79B0006C517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC9316223FCF9DD00B84B08 /* YYLabel_vs_UILabel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYLabel_vs_UILabel-Bridging-Header.h"; sourceTree = "<group>"; };
+		AFC9316323FCF9DD00B84B08 /* DebugOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugOption.h; sourceTree = "<group>"; };
+		AFC9316423FCF9DD00B84B08 /* DebugOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugOption.m; sourceTree = "<group>"; };
+		B0DA4399C99815D0F9A6DFBF /* Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests.debug.xcconfig"; path = "Target Support Files/Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests/Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2E65BC8118B5B1D6024D898 /* Pods_YYLabel_vs_UILabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYLabel_vs_UILabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73CA4A57289AEEEBB509FCE /* Pods-YYLabel_vs_UILabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLabel_vs_UILabelTests.debug.xcconfig"; path = "Target Support Files/Pods-YYLabel_vs_UILabelTests/Pods-YYLabel_vs_UILabelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8402BCC1A9C3730EEE81492 /* Pods-YYLabel_vs_UILabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLabel_vs_UILabelTests.release.xcconfig"; path = "Target Support Files/Pods-YYLabel_vs_UILabelTests/Pods-YYLabel_vs_UILabelTests.release.xcconfig"; sourceTree = "<group>"; };
+		DEA9AFF4FD4763DEA5AC3942 /* Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests.release.xcconfig"; path = "Target Support Files/Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests/Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD47D9CB49FB9657CB69784 /* Pods_YYLabel_vs_UILabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D299DE53E6DE18981ED266 /* Pods_YYLabel_vs_UILabelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1077B05A653724D366DDF9A /* Pods_YYLabel_vs_UILabel_YYLabel_vs_UILabelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8673D1CB708443E4857317D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E65BC8118B5B1D6024D898 /* Pods_YYLabel_vs_UILabel.framework */,
+				9404B89A9815D5308905CF11 /* Pods_YYLabel_vs_UILabel_YYLabel_vs_UILabelUITests.framework */,
+				4A4441CDB0A5CE78CDD8A0F4 /* Pods_YYLabel_vs_UILabelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF161A0E23F7B7990006C517 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				AF161A3023F7B79B0006C517 /* YYLabel_vs_UILabelTests */,
 				AF161A3B23F7B79B0006C517 /* YYLabel_vs_UILabelUITests */,
 				AF161A1823F7B7990006C517 /* Products */,
+				CE63618AB8932DF657C2E3B9 /* Pods */,
+				8673D1CB708443E4857317D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +133,13 @@
 				AF161A1A23F7B79A0006C517 /* AppDelegate.swift */,
 				AF161A1C23F7B79A0006C517 /* SceneDelegate.swift */,
 				AF161A1E23F7B79A0006C517 /* ViewController.swift */,
+				AFC9316323FCF9DD00B84B08 /* DebugOption.h */,
+				AFC9316423FCF9DD00B84B08 /* DebugOption.m */,
 				AF161A2023F7B79A0006C517 /* Main.storyboard */,
 				AF161A2323F7B79A0006C517 /* Assets.xcassets */,
 				AF161A2523F7B79A0006C517 /* LaunchScreen.storyboard */,
 				AF161A2823F7B79A0006C517 /* Info.plist */,
+				AFC9316223FCF9DD00B84B08 /* YYLabel_vs_UILabel-Bridging-Header.h */,
 			);
 			path = YYLabel_vs_UILabel;
 			sourceTree = "<group>";
@@ -128,6 +162,19 @@
 			path = YYLabel_vs_UILabelUITests;
 			sourceTree = "<group>";
 		};
+		CE63618AB8932DF657C2E3B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81A932B301DDD27943E2BC78 /* Pods-YYLabel_vs_UILabel.debug.xcconfig */,
+				84F34CA998754A8308456619 /* Pods-YYLabel_vs_UILabel.release.xcconfig */,
+				B0DA4399C99815D0F9A6DFBF /* Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests.debug.xcconfig */,
+				DEA9AFF4FD4763DEA5AC3942 /* Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests.release.xcconfig */,
+				C73CA4A57289AEEEBB509FCE /* Pods-YYLabel_vs_UILabelTests.debug.xcconfig */,
+				C8402BCC1A9C3730EEE81492 /* Pods-YYLabel_vs_UILabelTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF161A4123F7B79B0006C517 /* Build configuration list for PBXNativeTarget "YYLabel_vs_UILabel" */;
 			buildPhases = (
+				60F5F369AA8ED546BBD7D950 /* [CP] Check Pods Manifest.lock */,
 				AF161A1323F7B7990006C517 /* Sources */,
 				AF161A1423F7B7990006C517 /* Frameworks */,
 				AF161A1523F7B7990006C517 /* Resources */,
+				08EDCA971C6E1D08680CB222 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF161A4423F7B79B0006C517 /* Build configuration list for PBXNativeTarget "YYLabel_vs_UILabelTests" */;
 			buildPhases = (
+				A52CD05AEC034464A17DDCAC /* [CP] Check Pods Manifest.lock */,
 				AF161A2923F7B79B0006C517 /* Sources */,
 				AF161A2A23F7B79B0006C517 /* Frameworks */,
 				AF161A2B23F7B79B0006C517 /* Resources */,
@@ -170,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF161A4723F7B79B0006C517 /* Build configuration list for PBXNativeTarget "YYLabel_vs_UILabelUITests" */;
 			buildPhases = (
+				B5ED4F92F090199E5A293D0C /* [CP] Check Pods Manifest.lock */,
 				AF161A3423F7B79B0006C517 /* Sources */,
 				AF161A3523F7B79B0006C517 /* Frameworks */,
 				AF161A3623F7B79B0006C517 /* Resources */,
+				4661E95EBCB38660D43E9B61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +248,7 @@
 				TargetAttributes = {
 					AF161A1623F7B7990006C517 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					AF161A2C23F7B79B0006C517 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -254,11 +307,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08EDCA971C6E1D08680CB222 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YYLabel_vs_UILabel/Pods-YYLabel_vs_UILabel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YYLabel_vs_UILabel/Pods-YYLabel_vs_UILabel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YYLabel_vs_UILabel/Pods-YYLabel_vs_UILabel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4661E95EBCB38660D43E9B61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests/Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests/Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests/Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60F5F369AA8ED546BBD7D950 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YYLabel_vs_UILabel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A52CD05AEC034464A17DDCAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YYLabel_vs_UILabelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5ED4F92F090199E5A293D0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF161A1323F7B7990006C517 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC9316523FCF9DD00B84B08 /* DebugOption.m in Sources */,
 				AF161A1F23F7B79A0006C517 /* ViewController.swift in Sources */,
 				AF161A1B23F7B79A0006C517 /* AppDelegate.swift in Sources */,
 				AF161A1D23F7B79A0006C517 /* SceneDelegate.swift in Sources */,
@@ -432,17 +589,22 @@
 		};
 		AF161A4223F7B79B0006C517 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A932B301DDD27943E2BC78 /* Pods-YYLabel_vs_UILabel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E6YTL27QWA;
 				INFOPLIST_FILE = YYLabel_vs_UILabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.caitoy.YYLabel-vs-UILabel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YYLabel_vs_UILabel/YYLabel_vs_UILabel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,17 +612,21 @@
 		};
 		AF161A4323F7B79B0006C517 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F34CA998754A8308456619 /* Pods-YYLabel_vs_UILabel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E6YTL27QWA;
 				INFOPLIST_FILE = YYLabel_vs_UILabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.caitoy.YYLabel-vs-UILabel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YYLabel_vs_UILabel/YYLabel_vs_UILabel-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +634,7 @@
 		};
 		AF161A4523F7B79B0006C517 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73CA4A57289AEEEBB509FCE /* Pods-YYLabel_vs_UILabelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +657,7 @@
 		};
 		AF161A4623F7B79B0006C517 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8402BCC1A9C3730EEE81492 /* Pods-YYLabel_vs_UILabelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +680,7 @@
 		};
 		AF161A4823F7B79B0006C517 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0DA4399C99815D0F9A6DFBF /* Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +701,7 @@
 		};
 		AF161A4923F7B79B0006C517 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA9AFF4FD4763DEA5AC3942 /* Pods-YYLabel_vs_UILabel-YYLabel_vs_UILabelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

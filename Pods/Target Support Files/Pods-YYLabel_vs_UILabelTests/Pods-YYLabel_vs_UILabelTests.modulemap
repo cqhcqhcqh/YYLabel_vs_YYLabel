@@ -1,0 +1,6 @@
+framework module Pods_YYLabel_vs_UILabelTests {
+  umbrella header "Pods-YYLabel_vs_UILabelTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

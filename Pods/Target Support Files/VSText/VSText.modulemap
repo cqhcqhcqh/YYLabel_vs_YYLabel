@@ -1,0 +1,6 @@
+framework module VSText {
+  umbrella header "VSText-umbrella.h"
+
+  export *
+  module * { export * }
+}

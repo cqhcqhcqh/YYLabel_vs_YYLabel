@@ -1,0 +1,16 @@
+PODS:
+  - VSText (1.0.4)
+
+DEPENDENCIES:
+  - VSText
+
+SPEC REPOS:
+  https://git.versa-ai.com/ios/Versa-Specs.git:
+    - VSText
+
+SPEC CHECKSUMS:
+  VSText: 8f4e969e627e87fa871e633839e5d6be691b07e7
+
+PODFILE CHECKSUM: 28dfdec3d37bdc802d7ac6f6ab6f713b536630bb
+
+COCOAPODS: 1.8.4
